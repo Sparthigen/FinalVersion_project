@@ -48,7 +48,7 @@ const TitlebarGridList = () => {
 
   return (
     <div className={classes.root}>
-      <GridList cellHeight={600}  className={classes.gridList}>
+      <GridList cellHeight={490}  className={classes.gridList}>
         {posts.map((tile) => (
           <GridListTile className="zoom" key={tile.selectedFile}>
             
